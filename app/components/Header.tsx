@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="bg-gradient-to-r from-blue-500 to-indigo-600 p-4 shadow-md">
+    <header className="fixed top-0 left-0 w-full p-4 text-white z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-white text-xl font-bold">Your SaaS</h1>
+        <h1 className="text-white text-xl font-bold z-20">Your SaaS</h1>
         <nav>
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-4 items-center">
             <li>
               <Link href="/" className="text-white hover:text-gray-200">
                 Home
