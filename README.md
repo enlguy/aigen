@@ -1,3 +1,13 @@
+I'm creating this as an experiment, to see how well AI can create a functional business site.  The goal, for now, is to make an SPA in NextJS for a business.  I'm also utilizing Typescript and TailwindCSS.
+
+I've been using a mix of OpenAI and Copilot.  I started running into some serious memory issues with OpenAI's ChatGPT, and so moved my work over to MS Copilot.  Copilot has been great about picking up from where things were, by allowing me to upload an existing code block, or even image, to determine the site structure, color scheme, and design.  
+
+The AI definitely needs guidance, but thus far, I have a decent looking site (still work to be done) that has been coded almost 100% by the AI.  I have had to specify changes, at times, or helped the AI debug (and the reason I say "almost 100%" is because once or twice I determined I could simply fix it much more efficiently by doing it myself, after the AI had failed to modify the code appropriately in those instances).  
+
+I've found the AI to be most helpful in:
+  a) Saving time - not having to write all the code from scratch, but copy/paste and then tweak, has allowed the site to be built more quickly - though in the case of the hero section, it did start to take up more time than anticipated due to some challenges with the AI maintaining consisteny, or repeatedly providing code that would not work (forcing me to debug manually).  This was OpenAI's ChatGPT that was having these difficulties.
+  b) Image generation and design assets - I think this is a great boon of AI, in that I no longer have to scour license-free photo sites and hope to find something that will work, or spend a lot of money on a stock image.  The AI can create a lot of the visual assets for me from a text prompt, as well as understand the color palette and aesthetic well enough to help with general design.  
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
