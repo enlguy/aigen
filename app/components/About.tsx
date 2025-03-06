@@ -6,10 +6,10 @@ const About: React.FC = () => {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url(/bgfun.png)" }}
+        style={{ backgroundImage: "url(/aboutbg.png)" }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black opacity-60"></div>
+        <div className="absolute inset-0 bg-black opacity-70"></div>
       </div>
 
       {/* Content */}

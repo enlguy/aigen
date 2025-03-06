@@ -16,7 +16,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
   isYearly,
 }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-lg border-2 border-gray-200">
+    <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-gray-200 text-center">
       <h2 className="text-2xl font-bold mb-4">{name}</h2>
       <p className="text-4xl font-bold mb-4">
         ${isYearly ? yearlyPrice : monthlyPrice}

@@ -12,27 +12,21 @@ const PricingPage: React.FC = () => {
   const pricingTiers = [
     {
       name: "Basic",
-      features: ["Feature 1", "Feature 2", "Feature 3"],
+      features: ["Feature 1", "Feature 2", "Feature 3", "Feature 4"],
       monthlyPrice: 10,
-      yearlyPrice: 100,
+      yearlyPrice: 120,
     },
     {
       name: "Pro",
       features: ["Feature 1", "Feature 2", "Feature 3", "Feature 4"],
       monthlyPrice: 20,
-      yearlyPrice: 200,
+      yearlyPrice: 240,
     },
     {
       name: "Enterprise",
-      features: [
-        "Feature 1",
-        "Feature 2",
-        "Feature 3",
-        "Feature 4",
-        "Feature 5",
-      ],
+      features: ["Feature 1", "Feature 2", "Feature 3", "Feature 4"],
       monthlyPrice: 30,
-      yearlyPrice: 300,
+      yearlyPrice: 360,
     },
   ];
 
@@ -61,7 +55,9 @@ const PricingPage: React.FC = () => {
               index === 1 ? "relative z-10 -mt-8" : ""
             }`}
           >
-            <PricingCard {...tier} isYearly={isYearly} />
+            <div className="w-full max-w-sm">
+              <PricingCard {...tier} isYearly={isYearly} />
+            </div>
           </div>
         ))}
       </div>

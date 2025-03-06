@@ -2,6 +2,7 @@
 
 import About from "./components/About";
 import CaseStudy from "./components/CaseStudy";
+import Contact from "./components/Contact";
 import Features from "./components/Features";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -11,11 +12,24 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
-      <Features />
-      <CaseStudy />
-      <PricingPage />
-      <About />
+      <div id="hero">
+        <Hero />
+      </div>
+      <div id="features">
+        <Features />
+      </div>
+      <div id="case-study">
+        <CaseStudy />
+      </div>
+      <div id="pricing">
+        <PricingPage />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </>
   );
 }
