@@ -1,9 +1,20 @@
 import Image from "next/image";
+import { useEffect } from "react";
+import { animateWave } from "../utils/waveAnimation";
 
 const Hero = () => {
+  useEffect(() => {
+    animateWave();
+  }, []);
+
   return (
     <div className="relative inset-0 bg-black bg-opacity-10">
       <section className="relative w-full h-screen flex justify-center items-center">
+        <canvas
+          id="waveCanvas"
+          className="absolute top-0 left-0 w-full h-full pointer-events-none"
+        />
+
         {/* Background Image - Full Screen */}
         <Image
           src="/high-res.webp"
@@ -13,6 +24,12 @@ const Hero = () => {
           className="absolute inset-0 w-full h-full"
           priority
           z-0="true"
+        />
+
+        {/* Animated Wave Overlay */}
+        <canvas
+          id="waveCanvas"
+          className="absolute top-0 left-0 w-full h-full pointer-events-none"
         />
 
         {/* Overlay (Ensures Visibility & Proper Layering) */}
