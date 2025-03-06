@@ -31,9 +31,9 @@ const PricingPage: React.FC = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-20">
       <h1 className="text-3xl font-bold mb-8 text-center">Pricing Plans</h1>
-      <div className="flex justify-center items-center mb-15">
+      <div className="flex justify-center items-center mb-25 mt-10">
         <span className="mr-4">Monthly</span>
         <Switch
           onChange={togglePricing}
@@ -47,7 +47,7 @@ const PricingPage: React.FC = () => {
         />
         <span className="ml-4">Yearly</span>
       </div>
-      <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-15">
         {pricingTiers.map((tier, index) => (
           <div
             key={index}

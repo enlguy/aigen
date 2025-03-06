@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
       <h1 className="text-3xl font-bold mb-8 text-center">Contact Us</h1>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg"
+        className="max-w-lg mx-auto p-6 rounded-lg shadow-lg"
       >
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-700">
@@ -90,7 +90,7 @@ const Contact: React.FC = () => {
 
         <button
           type="submit"
-          className="bg-blue-500 text-white py-2 px-4 rounded"
+          className="bg-gray-800 text-white py-2 px-4 rounded"
         >
           Send Message
         </button>
