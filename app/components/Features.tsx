@@ -30,7 +30,7 @@ const Features: FC = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-900 text-white">
+    <section className="py-16 bg-white text-black">
       <div className="container mx-auto px-6 md:px-12">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
           Key Features
@@ -39,13 +39,13 @@ const Features: FC = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="text-center p-6 bg-gray-800 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+              className="text-center p-6 bg-gray-300 rounded-lg shadow-lg transition-transform transform hover:scale-105"
             >
               <div className="text-indigo-400 text-6xl mb-4">
                 {feature.icon}
               </div>
               <h3 className="text-2xl font-semibold mb-2">{feature.title}</h3>
-              <p className="text-gray-300">{feature.description}</p>
+              <p className="text-black">{feature.description}</p>
             </div>
           ))}
         </div>

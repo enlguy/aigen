@@ -3,8 +3,13 @@ import { FaChartLine, FaCogs, FaUsers, FaSyncAlt } from "react-icons/fa";
 
 const CaseStudy: FC = () => {
   return (
-    <section className="py-16 bg-gradient-to-r from-indigo-500 via-purple-600 to-blue-500 text-gray-900">
-      <div className="container mx-auto px-6 md:px-12">
+    <section
+      className="relative py-16 text-gray-900 bg-cover bg-center"
+      style={{ backgroundImage: "url(/aboutbg.png)" }}
+    >
+      <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+      {/* Overlay */}
+      <div className="relative container mx-auto px-6 md:px-12">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-white">
           Case Study: How TechCorp Transformed Their CRM
         </h1>
@@ -70,7 +75,7 @@ const CaseStudy: FC = () => {
 
         {/* Call to Action */}
         <div className="text-center">
-          <button className="mt-6 bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-lg">
+          <button className="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-lg">
             Start Your Success Story
           </button>
         </div>

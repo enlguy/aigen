@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto py-8 bg-gradient-to-r from-indigo-500 via-purple-600 to-blue-500">
+    <div className="container mx-auto py-8 bg-white">
       <h1 className="text-3xl font-bold mb-8 text-center">Contact Us</h1>
       <form
         onSubmit={handleSubmit(onSubmit)}
@@ -90,7 +90,7 @@ const Contact: React.FC = () => {
 
         <button
           type="submit"
-          className="bg-gray-800 text-white py-2 px-4 rounded"
+          className="bg-blue-500 text-white py-2 px-4 rounded"
         >
           Send Message
         </button>
