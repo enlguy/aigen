@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About: React.FC = () => {
   return (
@@ -26,7 +27,7 @@ const About: React.FC = () => {
           <h2 className="text-2xl font-semibold mb-4">Mission Statement</h2>
           <p>
             Our mission is to provide exceptional service and solutions that
-            exceed our clients' expectations.
+            exceed our clients&apos; expectations.
           </p>
         </section>
 
@@ -42,19 +43,25 @@ const About: React.FC = () => {
           <h2 className="text-2xl font-semibold mb-4">Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center">
-              <img
+              <Image
                 src="/member1.jpg"
                 alt="Team Member 1"
                 className="w-32 h-32 mx-auto rounded-full mb-4"
+                height={32}
+                width={32}
+                objectFit="contain"
               />
               <h3 className="text-lg font-medium">John Doe</h3>
               <p>CEO & Founder</p>
             </div>
             <div className="text-center">
-              <img
+              <Image
                 src="/member2.jpg"
                 alt="Team Member 2"
                 className="w-32 h-32 mx-auto rounded-full mb-4"
+                height={32}
+                width={32}
+                objectFit="contain"
               />
               <h3 className="text-lg font-medium">Jane Smith</h3>
               <p>CTO</p>
