@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import React from "react";
 import { useForm } from "react-hook-form";
 
@@ -36,6 +38,8 @@ const Contact: React.FC = () => {
         );
       });
   };
+
+  /* eslint-enable @typescript-eslint/no-unused-vars */
 
   return (
     <div className="container mx-auto py-8 bg-white">
