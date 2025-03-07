@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { FaChartLine, FaCogs, FaUsers, FaSyncAlt } from "react-icons/fa";
+import Image from "next/image";
 
 const CaseStudy: FC = () => {
   return (
@@ -60,12 +61,12 @@ const CaseStudy: FC = () => {
             <li>Seamless integration with existing tools and platforms</li>
           </ul>
           <div className="flex justify-around mt-8">
-            <img
+            <Image
               src="/images/before-revenue.jpg"
               alt="Before Revenue Growth"
               className="w-1/2 h-auto rounded-lg shadow-lg"
             />
-            <img
+            <Image
               src="/images/after-revenue.jpg"
               alt="After Revenue Growth"
               className="w-1/2 h-auto rounded-lg shadow-lg"
