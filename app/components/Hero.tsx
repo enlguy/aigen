@@ -1,12 +1,6 @@
 import Image from "next/image";
-import { useEffect } from "react";
-import { animateWave } from "../utils/waveAnimation";
 
 const Hero = () => {
-  useEffect(() => {
-    animateWave();
-  }, []);
-
   return (
     <div className="relative inset-0 bg-black bg-opacity-10">
       <section className="relative w-full h-screen flex justify-center items-center">
