@@ -38,7 +38,7 @@ const PricingPage: React.FC = () => {
         <Switch
           onChange={togglePricing}
           checked={isYearly}
-          offColor="#0d6efd"
+          offColor="#888"
           onColor="#0d6efd"
           offHandleColor="#fff"
           onHandleColor="#fff"

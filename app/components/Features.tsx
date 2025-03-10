@@ -27,18 +27,6 @@ const Features: FC = () => {
         "Integrate with your favorite tools and platforms for a unified workflow.",
       icon: <FaSyncAlt />,
     },
-    {
-      title: "Seamless Integration",
-      description:
-        "Integrate with your favorite tools and platforms for a unified workflow.",
-      icon: <FaSyncAlt />,
-    },
-    {
-      title: "Seamless Integration",
-      description:
-        "Integrate with your favorite tools and platforms for a unified workflow.",
-      icon: <FaSyncAlt />,
-    },
   ];
 
   return (

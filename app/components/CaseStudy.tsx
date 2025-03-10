@@ -65,15 +65,11 @@ const CaseStudy: FC = () => {
               src="/images/before-revenue.jpg"
               alt="Before Revenue Growth"
               className="w-1/2 h-auto rounded-lg shadow-lg"
-              width={50}
-              height={50}
             />
             <Image
               src="/images/after-revenue.jpg"
               alt="After Revenue Growth"
               className="w-1/2 h-auto rounded-lg shadow-lg"
-              width={50}
-              height={50}
             />
           </div>
         </div>
